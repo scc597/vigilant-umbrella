@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+        
+</head>
+
+<body>  
+    <div class="Todo-app">
+        <h1>Todo List</h1>
+        <div class="input-group">
+            <input type="text" placeholder="Add a new task">
+            <button>Add</button>
+        </div>
+        <ul>
+            <li><input type="checkbox"> <span style="text-decoration: line-through; opacity: 0.5;">Task 1</span></li>
+            <li><input type="checkbox"> Task 2</li>
+            <li><input type="checkbox"> Task 3</li>
+        </ul>
+    
+   
+   <style>  
+    body {
+  margin: 0;          /* 去掉页面默认白边 */
+  min-height: 100vh;  /* 渐变铺满整个屏幕高度 */
+  background: linear-gradient(to right, purple, blue);
+    }
+   .Todo-app {
+  width: 95vw;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;  /* 水平居中 */
+  margin-top: 5vh;
+  border-radius: 15px;
+  padding-bottom: 20px;
+   }
+   .input-group {
+  display: flex;
+  padding: 0 20px;
+   }
+   .input-group input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+  font-size: 16px;
+   }
+   .input-group button {
+  padding: 8px 20px;
+  background: linear-gradient(to right, purple, blue);
+  color: white;
+  border: 1px solid purple;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+  font-size: 16px;
+   }
+   .input-group button:hover {
+  filter: brightness(0.85);
+   }
+   .Todo-app h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5em;
+   }
+   .Todo-app ul {
+  list-style: none;
+  padding: 0 20px;
+   }
+   .Todo-app li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 15px;
+  font-size: 18px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #fafafa;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+   }
+   .Todo-app input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+   }
+   
+   
+   </style>
+    
+
+  
+
+    
+
+
+
+   
+</body>
